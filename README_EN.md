@@ -21,8 +21,8 @@ This is a **Universal AI Agent Skill Pack**. It supports not only Claude (throug
 
 Before using this skill, please ensure the following steps are completed:
 
-1. **Activate Virtual Environment**: Ensure you are in the correct `.venv`.
-2. **Install CLI**: Run the following command in the project root to install the project in editable mode:
+1. **Activate Virtual Environment**: It is recommended to create and activate a virtual environment in the project root to avoid dependency conflicts.
+2. **One-click Installation**: Run the following command in the project root. The project is now configured with `pyproject.toml` and will automatically install the `mijiaAPI` driver and all its dependencies:
    ```bash
    pip install -e .
    ```
