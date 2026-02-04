@@ -5,12 +5,7 @@ setup(
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
-        "pillow>=11.3.0",
-        "pycryptodome>=3.23.0",
-        "qrcode>=8.2",
-        "requests>=2.32.5",
-        "tzlocal>=5.3.1",
-        "mijiaAPI @ git+https://github.com/yihong0618/mijia-api.git",
+        "mijiaAPI>=3.0.5",
     ],
     author="MijiaSkillBot",
     description="A universal AI agent skill pack for Mijia device control",

@@ -1,7 +1,1 @@
-pillow>=11.3.0
-pycryptodome>=3.23.0
-qrcode>=8.2
-requests>=2.32.5
-tzlocal>=5.3.1
-# Portable: Install core library from source if it doesn't exist in environment
-git+https://github.com/yihong0618/mijia-api.git
+mijiaAPI>=3.0.5
